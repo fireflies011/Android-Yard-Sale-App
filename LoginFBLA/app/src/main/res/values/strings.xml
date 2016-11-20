@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login FBLA NLC Yard Sale</string>
+    <string name="app_name2">Register FBLA NLC Yard Sale</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_con_password">Confirm Password</string>
+    <string name="prompt_name">Name</string>
+    <string name="login_bn_label">Login</string>
+    <string name="reg_bn_label">Register</string>
+    <string name="sign_up_text">New User? Sign Up</string>
+</resources>
