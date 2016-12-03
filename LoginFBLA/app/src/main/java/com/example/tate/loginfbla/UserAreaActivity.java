@@ -3,6 +3,7 @@ package com.example.tate.loginfbla;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -27,5 +28,12 @@ public class UserAreaActivity extends AppCompatActivity {
         welcomeMessage.setText(message);
         etName.setText(name);
         etAge.setText(age + "");
+
+    }
+
+    public void goToEventInformationActivity (View view) {
+        Intent i = new Intent(UserAreaActivity.this, EventInformationActivity.class);
+        startActivity(i);
+
     }
 }

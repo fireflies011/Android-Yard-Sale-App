@@ -42,4 +42,30 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/etAge" />
+
+    <Button
+        android:text="View Listing"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:id="@+id/btViewListing"
+        android:layout_gravity="center" />
+    <Button
+        android:text="Submit Listing"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:id="@+id/btSubmitListing"
+        android:layout_gravity="center" />
+    <Button
+        android:text="Event Information"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:onClick="goToEventInformationActivity"
+        android:id="@+id/btViewMessages"
+        android:layout_gravity="center" />
 </LinearLayout>
