@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
@@ -19,88 +20,44 @@
         android:layout_marginTop="30dp"
         android:textStyle="bold"
         />
-    <RelativeLayout
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/fbla_logo"
+        android:id="@+id/imageView" />
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:text="@string/prompt_email"
-            android:textColor="@color/textColor"
-            android:textSize="18sp"
-            android:id="@+id/txl"
-            android:layout_alignParentLeft="true"
-            android:textStyle="bold"
-            />
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:id="@+id/etName"
+        android:hint="Name"
+        android:inputType="textPersonName" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txl"
-            android:id="@+id/email"
-            android:inputType="textEmailAddress"
-            android:textColor="@color/textColor"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:text="@string/prompt_password"
-            android:textColor="@color/textColor"
-            android:textSize="18sp"
-            android:id="@+id/tx2"
-            android:layout_alignParentLeft="true"
-            android:textStyle="bold"
-            android:layout_below="@+id/email"
-            />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tx2"
-            android:id="@+id/password"
-            android:inputType="textPassword"
-            android:textColor="@color/textColor"
-            />
-     <Button
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="@string/login_bn_label"
-         style="?android:textAppearanceSmall"
-         android:textStyle="bold"
-         android:layout_below="@+id/password"
-         android:layout_marginTop="35dp"
-         android:id="@+id/login_button"
-         android:background="@drawable/button_selector"
-         android:textColor="@color/textColor"
-         />
-    </RelativeLayout>
-
-    <RelativeLayout
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
-        >
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:hint="Password" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sign_up_text"
-            android:textColor="@color/textColor"
-            android:textSize="18sp"
-            android:gravity="center"
-            android:layout_alignParentBottom="true"
-            android:id="@+id/sign_up"
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bLogin" />
 
-            />
-
-    </RelativeLayout>
+    <TextView
+        android:text="Register Here!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tvRegisterHere"
+        android:gravity="center" />
 
 </LinearLayout>
