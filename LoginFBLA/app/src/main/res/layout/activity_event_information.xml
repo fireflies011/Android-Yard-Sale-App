@@ -11,18 +11,11 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <ImageView
-        android:layout_width="370dp"
-        android:layout_height="197dp"
-        android:layout_marginTop="100dp"
-        app:srcCompat="@drawable/fbla_logo"
-        android:id="@+id/imageView2" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name3"
-        android:textColor="@android:color/background_light"
+        android:textColor="@color/textColor"
         android:textSize="30sp"
         android:gravity="center"
         android:layout_marginTop="30dp"
@@ -40,5 +33,12 @@
         android:textStyle="bold"
         android:id="@+id/welcome_txt2"
         />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/fbla_logo"
+        android:id="@+id/imageView2" />
 
 </LinearLayout>
