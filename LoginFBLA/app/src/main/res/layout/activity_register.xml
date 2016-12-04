@@ -9,16 +9,6 @@
     android:background="@color/colorPrimary"
     tools:context="com.example.tate.loginfbla.RegisterActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/textColor"
-        android:textSize="30sp"
-        android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:textStyle="bold"
-        />
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
@@ -32,7 +22,9 @@
         android:layout_marginTop="50dp"
         android:ems="10"
         android:id="@+id/etName"
-        android:hint="Name" />
+        android:hint="Name"
+        android:textColor="?attr/actionMenuTextColor"
+        style="@android:style/Widget.Material.Light.EditText" />
 
     <EditText
         android:layout_width="match_parent"
@@ -56,13 +48,25 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/etAge"
-        android:hint="Age" />
+        android:hint="Age"
+        android:textSize="18sp" />
 
     <Button
         android:text="Register"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bRegister" />
+        android:id="@+id/bRegister"
+        android:background="@drawable/button_selector" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        />
 
 </LinearLayout>

@@ -1,5 +1,5 @@
 package com.example.tate.loginfbla;
-
+//Developed By Carlos Ruiz & Tate Cottom
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;

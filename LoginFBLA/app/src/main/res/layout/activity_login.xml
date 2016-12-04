@@ -8,18 +8,8 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     tools:context="com.example.tate.loginfbla.LoginActivity"
-    android:orientation="vertical">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textColor="@color/textColor"
-        android:textSize="30sp"
-        android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:textStyle="bold"
-        />
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <ImageView
         android:layout_width="match_parent"
@@ -34,7 +24,8 @@
         android:ems="10"
         android:id="@+id/etName"
         android:hint="Name"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        style="@style/Widget.AppCompat.AutoCompleteTextView" />
 
     <EditText
         android:layout_width="match_parent"
@@ -50,7 +41,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:id="@+id/bLogin" />
+        android:id="@+id/bLogin"
+        android:background="@drawable/button_selector" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_weight="0.16" />
 
     <TextView
         android:text="Register Here!"
@@ -58,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:id="@+id/tvRegisterHere"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="@color/buttonColor" />
 
 </LinearLayout>

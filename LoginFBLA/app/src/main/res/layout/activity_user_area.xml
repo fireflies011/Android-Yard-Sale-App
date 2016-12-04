@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     tools:context="com.example.tate.loginfbla.LoginActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <TextView
         android:text="TextView"
@@ -15,7 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:id="@+id/tvWelcomeMsg" />
+        android:id="@+id/tvWelcomeMsg"
+        android:textColor="@android:color/background_light" />
 
     <TextView
         android:layout_width="match_parent"
@@ -45,12 +47,14 @@
 
     <Button
         android:text="View Listing"
-        android:layout_width="250dp"
+        android:layout_width="257dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:gravity="center"
         android:id="@+id/btViewListing"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttonColor"
+        android:layout_weight="0.05" />
 
     <Button
         android:text="Submit Listing"
@@ -60,15 +64,18 @@
         android:gravity="center"
         android:onClick="goToSubmitListingActivity"
         android:id="@+id/btSubmitListing"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:background="@drawable/button_selector" />
 
     <Button
         android:text="Event Information"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_height="38dp"
         android:layout_marginTop="1dp"
         android:gravity="center"
         android:onClick="goToEventInformationActivity"
         android:id="@+id/btViewMessages"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:background="@drawable/button_selector" />
+
 </LinearLayout>

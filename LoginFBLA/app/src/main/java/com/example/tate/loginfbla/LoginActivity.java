@@ -1,5 +1,5 @@
 package com.example.tate.loginfbla;
-
+//Developed By Carlos Ruiz & Tate Cottom
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                                 LoginActivity.this.startActivity(intent);
                             }else{
                                 AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
-                                builder.setMessage("Login Failed")
+                                builder.setMessage("Wrong Name or Password")
                                         .setNegativeButton("Retry", null)
                                         .create()
                                         .show();
