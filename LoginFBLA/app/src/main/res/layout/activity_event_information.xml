@@ -23,21 +23,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/welcome_users"
-        android:textSize="20sp"
+        android:text="@string/welcome_users2"
+        android:textSize="23sp"
         android:gravity="left"
         android:layout_marginTop="50dp"
-        android:textColor="@color/textColor"
-        android:textStyle="bold"
-        android:id="@+id/welcome_txt"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_users2"
-        android:textSize="20sp"
-        android:gravity="left"
-        android:layout_marginTop="20dp"
         android:textColor="@color/textColor"
         android:textStyle="bold"
         android:id="@+id/welcome_txt2"
@@ -46,7 +35,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         app:srcCompat="@drawable/fbla_logo"
         android:id="@+id/imageView2" />
 </LinearLayout>

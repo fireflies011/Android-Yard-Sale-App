@@ -20,7 +20,8 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".UserAreaActivity" />
-        <activity android:name=".EventInformationActivity"></activity>
+        <activity android:name=".EventInformationActivity" />
+        <activity android:name=".SubmitListingActivity"></activity>
     </application>
 
 </manifest>

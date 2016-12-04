@@ -2,7 +2,8 @@
     <string name="app_name">FBLA Yard Sale</string>
     <string name="app_name3">FBLA NLC Yard Sale</string>
     <string name="welcome_users">- Attention all users: FBLA NLC Yard Sale Event will be held on June 24, 2017 at 28401 SW 167th Ave, Homestead, FL 33030</string>
-    <string name="welcome_users2">- Submit Listings to show other FBLA members what you will be bringing with you to the FBLA Yard Sale Event. All transactions go to  Please make preparations for arrival before the event. </string>
+    <string name="welcome_users2">- Submit Listings to be donated to other FBLA members. All transactions go towards helping FBLA members attend the FBLA NLC this summer! </string>
+    <string name="txtSubmitListing">Submit Listing </string>
     <string name="viewlisting_btn">View Listing</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -11,4 +12,15 @@
     <string name="login_bn_label">Login</string>
     <string name="reg_bn_label">Register</string>
     <string name="sign_up_text">New User? Sign Up</string>
+    <string name="itemcondition1">New</string>
+    <string name="itemcondition2">Like New</string>
+    <string name="itemcondition3">Used</string>
+    <string name="itemcondition4">Poor</string>
+
+    <string-array name="itemconditionlist">
+        <item>@string/itemcondition1</item>
+        <item>@string/itemcondition2</item>
+        <item>@string/itemcondition3</item>
+        <item>@string/itemcondition4</item>
+    </string-array>
 </resources>
