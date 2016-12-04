@@ -11,6 +11,17 @@
     android:orientation="vertical"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_weight="0.16" />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
@@ -42,18 +53,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:id="@+id/bLogin"
-        android:background="@drawable/button_selector" />
+        android:background="@drawable/button_selector"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textColor="@android:color/background_light"
-        android:textSize="30sp"
-        android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:textStyle="bold"
-        android:layout_weight="0.16" />
+        />
 
     <TextView
         android:text="Register Here!"
