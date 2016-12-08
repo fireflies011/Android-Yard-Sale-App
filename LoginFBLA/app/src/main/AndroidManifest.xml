@@ -3,6 +3,7 @@
     package="com.example.tate.loginfbla">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +22,8 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".UserAreaActivity" />
         <activity android:name=".EventInformationActivity" />
-        <activity android:name=".SubmitListingActivity"></activity>
+        <activity android:name=".SubmitListingActivity" />
+        <activity android:name=".SubmitActivity"></activity>
     </application>
 
 </manifest>

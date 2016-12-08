@@ -38,7 +38,7 @@ public class UserAreaActivity extends AppCompatActivity {
     }
 
     public void goToSubmitListingActivity (View view) {
-        Intent j = new Intent(UserAreaActivity.this, SubmitListingActivity.class);
+        Intent j = new Intent(UserAreaActivity.this, SubmitActivity.class);
         startActivity(j);
     }
 }
