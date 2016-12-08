@@ -2,7 +2,7 @@
     <string name="app_name">FBLA Yard Sale</string>
     <string name="app_name3">Event Information</string>
     <string name="welcome_users">- Attention all users: FBLA NLC Yard Sale Event will be held on June 24, 2017 at 28401 SW 167th Ave, Homestead, FL 33030</string>
-    <string name="welcome_users2">- Submit listings to be donated for other FBLA members to browse. All transactions go towards helping FBLA members attend the FBLA NLC this summer! </string>
+    <string name="welcome_users2">- Submit listings to be donated that other FBLA members may browse. All transactions go towards helping FBLA members attend the FBLA NLC this summer! </string>
     <string name="txtSubmitListing">Submit Listing </string>
     <string name="viewlisting_btn">View Listing</string>
     <string name="prompt_email">Email</string>

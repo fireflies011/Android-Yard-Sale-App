@@ -51,6 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:gravity="center"
+        android:onClick="goToViewActivity"
         android:id="@+id/btViewListing"
         android:layout_gravity="center"
         android:background="@drawable/button_selector" />
@@ -61,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:onClick="goToSubmitListingActivity"
+        android:onClick="goToSubmitActivity"
         android:id="@+id/btSubmitListing"
         android:layout_gravity="center"
         android:background="@drawable/button_selector" />
