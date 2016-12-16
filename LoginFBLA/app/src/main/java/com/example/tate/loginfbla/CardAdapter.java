@@ -68,7 +68,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
         //Views
         public NetworkImageView imageView;
         public TextView textViewName;
-        //public TextView textViewPublisher;
+        public TextView textViewPublisher;
 
         //Initializing Views
         public ViewHolder(View itemView) {

@@ -34,10 +34,34 @@
         android:id="@+id/welcome_txt2"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yardsaleinfo"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:id="@+id/yardsaleinfo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yardsaleinfo2"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:id="@+id/yardsaleinfo2"
+        />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="80dp"
         app:srcCompat="@drawable/fbla_logo"
         android:id="@+id/imageView2" />
 

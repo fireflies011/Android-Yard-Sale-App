@@ -46,11 +46,22 @@
 
         />
 
+    <Button
+        android:text="View Listings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:onClick="goToViewActivity"
+        android:id="@+id/btViewListing"
+        android:layout_gravity="center"
+        android:background="@drawable/button_selector" />
+
     <TextView
         android:text="Register Here!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="60dp"
         android:id="@+id/tvRegisterHere"
         android:gravity="center"
         android:textColor="@color/buttonColor" />

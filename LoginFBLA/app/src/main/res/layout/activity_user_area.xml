@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
@@ -45,11 +46,18 @@
         android:ems="10"
         android:id="@+id/etAge" />
 
+    <ImageView
+        android:layout_width="159dp"
+        android:layout_height="167dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/shopping_cart_red"
+        android:id="@+id/imageView4" />
+
     <Button
-        android:text="View Listing"
+        android:text="View Listings"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:onClick="goToViewActivity"
         android:id="@+id/btViewListing"
@@ -68,7 +76,7 @@
         android:background="@drawable/button_selector" />
 
     <Button
-        android:text="Event Information"
+        android:text="About Yard Sale"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

@@ -82,4 +82,9 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+
+    public void goToViewActivity (View view) {
+        Intent a = new Intent(LoginActivity.this, ViewActivity.class);
+        startActivity(a);
+    }
 }
