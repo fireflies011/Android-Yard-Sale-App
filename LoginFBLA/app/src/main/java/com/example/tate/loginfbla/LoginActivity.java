@@ -2,11 +2,14 @@ package com.example.tate.loginfbla;
 //Developed By Carlos Ruiz & Tate Cottom
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
@@ -80,6 +83,15 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+        Button rate = (Button)findViewById(R.id.facebookLogo);
+        rate.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent openFacebook = new Intent(Intent.ACTION_VIEW, Uri.parse("https://facebook.com"));
+                startActivity(openFacebook);
+            }
+        });
 
     }
 
@@ -87,4 +99,5 @@ public class LoginActivity extends AppCompatActivity {
         Intent a = new Intent(LoginActivity.this, ViewActivity.class);
         startActivity(a);
     }
+
 }

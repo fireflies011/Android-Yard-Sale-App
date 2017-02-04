@@ -20,7 +20,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:id="@+id/etName"
         android:hint="Name"
@@ -30,7 +30,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/etPassword"
@@ -40,7 +40,7 @@
         android:text="Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/bLogin"
         android:background="@drawable/button_selector"
 
@@ -61,9 +61,57 @@
         android:text="Register Here!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
         android:id="@+id/tvRegisterHere"
         android:gravity="center"
         android:textColor="@color/buttonColor" />
+
+    <TextView
+        android:text="Find us on Social Media!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/buttonColor"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+
+        <Space
+            android:layout_width="70dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/facebookLogo"
+            android:background="@drawable/facebook_logo"
+             />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/twitter_logo"
+            android:id="@+id/twitterLogo" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/instagramLogo"
+            android:background="@drawable/instagram_logo"
+            />
+
+        <Button
+            android:layout_height="60dp"
+            android:background="@drawable/linkedin_logo"
+            android:id="@+id/linkedinLogo"
+            android:layout_width="60dp" />
+
+    </TableRow>
 
 </LinearLayout>
