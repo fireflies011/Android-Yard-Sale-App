@@ -1,11 +1,11 @@
 <?php
-
+//Call For INIT.PHP File
 require "init.php";
-
-$name ="carlos";
-$user_name ="Carlosr1";
-$user_pass ="123456789";
-
+//DATABASE INFORMATION
+$name ="DBNAMEHERE";
+$user_name ="DBUSERNAMEHERE";
+$user_pass ="DBUSERPASSWORDHERE";
+//Inssert Into Database User_info table
 $sql_query ="insert into user_info values('$name','$user_pass');";
 
 if(mysqli_query($con,$sql_query))
@@ -15,15 +15,6 @@ if(mysqli_query($con,$sql_query))
 else
 {
     echo "Data Insertion error..".mysql_error($con);
-
-
-
-
-
-
-
-
-
 
 
 
